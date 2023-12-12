@@ -1,0 +1,206 @@
+h1 {
+  font-size: 28px;
+  padding: 7px;
+}
+
+p {
+  text-align: justify;
+}
+
+.btn-start {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(102,252,70,1) 100%);
+}
+
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 118, 187, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(0, 98, 128);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(112, 165, 230, 0.35) 0 -25px 18px -14px inset,rgba(138, 205, 236, 0.25) 0 1px 2px,rgba(12, 79, 124, 0.25) 0 2px 4px,rgba(35, 238, 238, 0.25) 0 4px 8px,rgba(44, 46, 187, 0.25) 0 8px 16px,rgba(63, 216, 178, 0.25) 0 16px 32px;
+  transform: scale(1.09);
+}
+
+ol {
+  width: 80%;
+  counter-reset: li; 
+  list-style: none; 
+  padding: 0;
+  margin-top: 20px;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  font-size: 16px;
+}
+
+li {
+  width: 100%;
+}
+
+ol a {
+  position: relative;
+  display: block;
+  padding: .5em .4em .4em 2em;
+  margin: .5em 0;
+  background: #DAD2CA;
+  color: #444;
+  text-decoration: none;
+  border-radius: .4em;
+  transition: .3s ease-out;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+ol a:hover { background: #E9E4E0; }
+ol a:hover:before { transform: rotate(360deg); }
+ol a:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -0.5em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #f9dd94;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
+}
+
+area #ikat:hover {
+  color: aqua;
+}
+
+.button-87 {
+  margin-top: 10px;
+  padding: 8px 15px;
+  text-align: right;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 600;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+
+.button-86 {
+  margin-top: 10px;
+  padding: 8px 15px;
+  text-align: left;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 600;
+  box-shadow: 0px 0px 14px -7px #093961;
+  background-image: linear-gradient(45deg, #2059c4 0%, #15ada1  51%, #442fff  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-86:active {
+  transform: scale(0.95);
+}
+
+#target a:hover .st3, #target a:active .st3,
+#target a:hover .st4, #target a:active .st4 {
+  fill: blue;
+}
+
+.st3 {
+  fill: #C1272D;
+}
+
+.st4 {
+  fill: #333333;
+}
+
+.st0{fill:#FFFFFF;}
+.st1{fill:#F15A24;}
+.st2{fill:#F7931E;}
+.st3{fill:#C1272D;}
+.st4{fill:#333333;}
+
+img[usemap] {
+	border: none;
+	height: auto;
+  max-width: 100%;
+	width: auto;
+}  
+
+p {
+  margin: 0;  
+}
+
+.card-body {
+  font-size: 19px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  font-weight: 500;
+}
+
+#headerPopup{
+  width:40%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
